@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widgets_2024_1/config/menu/menu_items.dart';
 
 class CustomListTitle extends StatelessWidget {
@@ -24,7 +25,7 @@ class CustomListTitle extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: () {
-        print('llamado de la liga a donde ir ${menuItem.link}');
+        context.pushNamed(menuItem.nameScreen);
       },
     );
   }

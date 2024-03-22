@@ -5,6 +5,8 @@ import 'package:widgets_2024_1/presentation/witgets/CustomListTitle.dart';
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
+  final String nameScreen = "HomeScreen";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
