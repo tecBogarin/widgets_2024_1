@@ -1,7 +1,6 @@
 import 'package:go_router/go_router.dart';
-import 'package:widgets_2024_1/presentation/screens/buttons/ButtonScreen.dart';
-import 'package:widgets_2024_1/presentation/screens/cards/CardScreen.dart';
-import 'package:widgets_2024_1/presentation/screens/home/home.dart';
+import 'package:widgets_2024_1/presentation/screens/screens.dart';
+
 
 final appRouter = GoRouter(
   debugLogDiagnostics: true,

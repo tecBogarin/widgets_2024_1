@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_2024_1/config/routers/router.dart';
 import 'package:widgets_2024_1/config/theme/app_theme.dart';
-import 'package:widgets_2024_1/presentation/screens/home/home.dart';
 
 void main() {
   runApp(const MainApp());
